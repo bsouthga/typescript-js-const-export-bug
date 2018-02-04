@@ -1,0 +1,1 @@
+To see the bug, run `npm test` after installing deps
