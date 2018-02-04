@@ -1,10 +1,6 @@
+export const Adapter = {};
 
-class Collection {
-  constructor(opts) {}
-}
+Adapter.prop = {};
 
-export const Adapter = new Collection({ });
-
-Adapter.method = async function() {
-  await Promise.resolve();
-}
+// comment this out, and it works
+Adapter.asyncMethod = async function() {}

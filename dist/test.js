@@ -1,10 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-class Collection {
-    constructor(opts) { }
-}
-exports.Adapter = new Collection({});
-Adapter.method = async function () {
-    await Promise.resolve();
-};
+exports.Adapter = {};
+Adapter.prop = {};
+Adapter.asyncMethod = async function () { };
 //# sourceMappingURL=test.js.map
