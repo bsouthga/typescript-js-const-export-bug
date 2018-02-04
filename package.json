@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test": "npm run tsc && node ./dist/test.js",
+    "tsc": "rm -rf ./dist/ && tsc"
+  },
+  "dependencies": {
+    "typescript": "2.7.1"
+  }
+}
